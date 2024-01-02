@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Form</h1>
+    <p id="description">Form Data</p>
+    <form action="" id="survey-form">
+      <label for="" id="name-label">Name : <input type="text" id="name" placeholder="Restu" required /></label>
+      <label for="" id="email-label">Email : <input type="email" id="email" placeholder="@gmail.com" required /></label>
+      <label for="" id="number-label">Number : <input type="number" id="number" placeholder="0" required min="8" max="16" /></label>
+      <select name="" id="dropdown">
+        <option value="" selected>KTP</option>
+        <option value="" selected>SIM</option>
+      </select>
+      <input type="radio" name="sex" id="pria" value="pria" /><label for="pria">Pria</label> <input type="radio" name="sex" id="wanita" value="wanita" /><label for="wanita">Wanita</label>
+      <input type="checkbox" name="kendaraan" id="motor" value="motor" /><label for="motor">Motor</label> <input type="checkbox" name="kendaraan" id="mobil" value="mobil" /><label for="mobil">Mobil</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
